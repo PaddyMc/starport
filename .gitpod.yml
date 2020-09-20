@@ -1,5 +1,5 @@
 image: gitpod/workspace-full
-workspace-location: "./docs"
+workspaceLocation: "./docs"
 tasks:
   - command: export VUE_APP_CUSTOM_URL=$(gp url)
     init: make
